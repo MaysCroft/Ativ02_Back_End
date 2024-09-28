@@ -18,7 +18,7 @@ function adivinharGames() {
 
         options = [correctGame];
 
-        while (options.length < 5) {
+        while (options.length < 6) {
             const randomOption = data.results[Math.floor(Math.random() * data.results.length)];
 
             if (!options.includes(randomOption)) {
