@@ -1,5 +1,5 @@
 .logo {
-    max-width: 100px;
+    max-width: 100px; 
 }
 
 header {
@@ -53,7 +53,7 @@ form textarea {
     color: #fff;
 }
 
-.glow-on-hover {
+.glow-on-hover { /* Iniciando configuração dos botões do jogo */
     width: 220px;
     height: 80px;
     border: none;
@@ -66,7 +66,7 @@ form textarea {
     border-radius: 10px;
 }
 
-.glow-on-hover:before {
+.glow-on-hover:before { /* Configuração para os botôes ficarem mudando de cor */
     content: '';
     background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
     position: absolute;
@@ -83,7 +83,7 @@ form textarea {
     border-radius: 10px;
 }
 
-.glow-on-hover:active {
+.glow-on-hover:active { /* Cor inicial do botão */
     color: #000
 }
 
